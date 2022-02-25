@@ -52,7 +52,7 @@ jobs:
         
 
     - name: Configure
-      run: bash configure --disable-warnings-as-errors
+      run: bash configure --disable-warnings-as-errors --disable-javac-server
 
     # Initializes the CodeQL tools for scanning.
     - name: Initialize CodeQL
