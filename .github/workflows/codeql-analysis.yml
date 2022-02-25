@@ -22,7 +22,7 @@ on:
         default: clean images
       configure_options:
         description: Configure options
-        default: --disable-javac-server
+        default: --disable-warnings-as-errors 
 
 jobs:
   analyze:
