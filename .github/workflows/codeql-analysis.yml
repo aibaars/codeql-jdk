@@ -22,7 +22,7 @@ on:
         default: clean images
       configure_options:
         description: Configure options
-        default: --disable-warnings-as-errors 
+        default: --disable-warnings-as-errors --with-build-jdk=/usr/lib/jvm/temurin-11-jdk-amd64
 
 jobs:
   analyze:
